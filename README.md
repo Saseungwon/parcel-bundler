@@ -60,4 +60,12 @@ babel은 컴파일러
         ]
       ```
   5. npm i -D @babel/plugin-transform-runtime
-  
+  6. 
+      ```js
+          module.exports = {
+            presets: ['@babel/preset-env'],
+            plugins: [
+              ['@babel/plugin-transform-runtime']
+            ]
+          }
+      ```
